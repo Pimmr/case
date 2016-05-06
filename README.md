@@ -11,7 +11,7 @@ Non-functional requirements:
 * It should work in Chrome
 * It should be styled with css
 * It should use React
-* It should be tested
+* It should contain automated tests
 
 Functional requirements:
 * Show a maximum of 5 restaurants on the page
