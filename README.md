@@ -1,7 +1,7 @@
 # Pimmr development case
 
 Pengiun Pim has given you the task to build a small web frontend for his search to the perfect restaurant in Amsterdam.
-A backend is provided to you which returns the top restaurants in Amsterdam, an example is provided in index.html.
+A backend is provided to you which returns the top restaurants in Amsterdam, an example is provided in `index.html`.
 Currently, the backend can return the same restaurants at different positions. You can ignore this behavior.
 
 Non-functional requirements:
@@ -20,9 +20,9 @@ Functional requirements:
 * All restaurants at an uneven position in the list should have a black name
 * All restaurants at an even position in the list should have a red name
 * If the name of a restaurant contains the word 'restaurant', the word restaurant should be bold.
-* Each restaurant has a collection of one or more images. Ideally the brightest image of a collection is shown.
+* Each restaurant has a collection of one or more images. The brightest image of a collection must be shown.
 
 Additional API information:
-* Currently the example uses a RPC call to obtain 5 restaurants. There is also a function that returns the *next* 5 restaurants
+* Currently the example uses a RPC call to obtain 5 restaurants.
 
 Other than React, you have the freedom to choose any libraries you like. The application should load with `npm start` or a Docker run command.
