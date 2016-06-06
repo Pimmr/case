@@ -1,8 +1,7 @@
 # Pimmr development case
 
-Pengiun Pim has given you the task to build a small web frontend for his search to the perfect restaurant in Amsterdam.
+Penguin Pim has given you the task to build a small web frontend for his search to the perfect restaurant in Amsterdam.
 A backend is provided to you which returns the top restaurants in Amsterdam, an example is provided in `index.html`.
-Currently, the backend can return the same restaurants at different positions. You can ignore this behavior.
 
 Non-functional requirements:
 * Instructions on how to get your application up-and-running should be included
@@ -23,6 +22,7 @@ Functional requirements:
 * Each restaurant has a collection of one or more images. The brightest image of a collection must be shown.
 
 Additional API information:
-* Currently the example uses a RPC call to obtain 5 restaurants.
+* The example uses a RPC call to obtain 5 restaurants.
+* The backend can return the same restaurants at different positions. You can ignore this behavior.
 
 Other than React, you have the freedom to choose any libraries you like. The application should load with `npm start` or a Docker run command.
